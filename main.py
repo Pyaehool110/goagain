@@ -167,7 +167,7 @@ async def error_handler(update: object, context: CallbackContext):
 
 # Bot start
 async def main():
-    application = Application.builder().token("8048967603:AAGVDzDYEFpdFFcRO9ymtNUve1iLtalIrnQ").build()
+    application = Application.builder().token("8048967603:AAGAYbQ7haIhx_xi_hs72pxSMp9MRXAMLFE").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.StatusUpdate.NEW_CHAT_MEMBERS, welcome_new_member))
